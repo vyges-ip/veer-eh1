@@ -1,0 +1,17 @@
+schema_version: "vyges-upstream-v1"
+upstream:
+  type: "standalone"
+  repo: https://github.com/chipsalliance/Cores-VeeR-EH1
+  branch: main
+  commit: 915fb34a5b38ef14c5d5c05431765ad8b912bc34
+import:
+  rtl:
+    - path: "design"
+      map_to: "rtl"
+  license:
+    - path: "LICENSE"
+  readme:
+    - path: "README.md"
+license:
+  spdx: Apache-2.0
+  file: LICENSE
